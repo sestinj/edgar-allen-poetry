@@ -2,7 +2,7 @@
 import io
 
 ##textFile = io.open("confederacy_of_dunces.txt", "r", encoding="utf-8")
-textFile = open("confederacy_of_dunces.txt", "r", -1, "utf-8", "ignore")
+textFile = open("the_raven.txt", "r", -1, "utf-8", "ignore")
 fileString = textFile.read()
 textFile.close()
 
